@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>NewAlerte</servlet-name>
+		<servlet-class>fixMyRabatMain.NewAlerte</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewAlerte</servlet-name>
+		<url-pattern>/new</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ListRapport</servlet-name>
+		<servlet-class>fixMyRabatMain.ListRapport</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListRapport</servlet-name>
+		<url-pattern>/list</url-pattern>
+	</servlet-mapping>
+	
+		
+	<servlet>
+		<servlet-name>Details</servlet-name>
+		<servlet-class>fixMyRabatMain.Details</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Details</servlet-name>
+		<url-pattern>/Details</url-pattern>
+	</servlet-mapping>
+	
+
+		<servlet>
+		<servlet-name>MyAlerts</servlet-name>
+		<servlet-class>fixMyRabatMain.MyAlerts</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyAlerts</servlet-name>
+		<url-pattern>/myAlerts</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes  autoGenerate="true">
+    <datastore-index kind="Alerte" ancestor="false" source="manual">
+    
+        <property name="Sujet" direction="asc"/>
+        <property name="Key" direction="asc"/>
+        <property name="Rue" direction="asc"/>
+        <property name="Description" direction="asc"/>
+        <property name="Probleme" direction="asc"/>
+        <property name="PicURl" direction="asc"/>          
+        <property name="Lat" direction="asc"/>
+        <property name="Long" direction="asc"/>
+        <property name="User" direction="asc"/>
+        
+    </datastore-index>
+</datastore-indexes>

@@ -1,0 +1,1 @@
+Je n'arrivais pas a enlever l'extention "ah/upload" du blopstore, et comme mes fichiers de style sont mappé realtivement, je n'ai pas eu d'autres choix que de les recopier :/
